@@ -1,6 +1,6 @@
 body{
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(25, 50, 118) 100%);
+    background: linear-gradient(180deg, rgb(1, 0, 30) 0%, rgb(37, 48, 69) 100%);
     background-repeat: space;
     background-attachment: fixed;
 }
@@ -21,6 +21,8 @@ body{
     font-style: normal;
 
     color: white;
+    padding: 0;
+    margin: 0;
 }
 .sub-title{
     text-align: center;
@@ -31,7 +33,10 @@ body{
     letter-spacing: 15px;
 
     color: rgb(156, 156, 156);
+    padding: 0;
+    margin: 0;
 }
+
 .image{
     display: flex;
     width:100%;
@@ -58,47 +63,65 @@ body{
 .list{
     text-align:left;
 }
+
 #topnav{
+    position: sticky;
+    top: 2px;
+    overflow: hidden;
+
+    display: flex;
+
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:rgb(98, 140, 179);
+    background-color: rgb(37, 48, 69);
     font-family: sans-serif;
     font-size: 15px;
     font-weight:700;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .nav-link{
     padding:0 10px;
-    display: inline-block;
     width:fit-content;
     height: 55px;
     text-align: center;
     line-height: 55px;
     text-decoration: none;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
 #logo{
-    width: 120px;
-    background-color: RoyalBlue;
+    width: 40px;
+    background-color: #7671ff;
     font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin: 3px;
 }
+
 #about{
-    position:absolute;
-    top:0;
-    right:0;
+    display: inline-block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 0;
 }
 a{
-    color:aquamarine;
+    color:#7671ff;
 }
-a:visited{
-    color:rgb(140, 213, 202)
-}
+
+/* a:visited{
+    color:rgb(255, 255, 255)
+} */
+
 a:hover{
-    color:darkgreen;
+    color:rgb(215, 214, 255);
 }
+
 a:active{
-    color:black;
+    color:rgb(255, 255, 255);
 }
+
 .footer{
     color:rgb(142, 139, 139);
     padding:10px 0;
