@@ -1,0 +1,114 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(25, 50, 118) 100%);
+    background-repeat: space;
+    background-attachment: fixed;
+}
+.title{
+    text-align: center;
+    font-size: 10em;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-bottom: 0;
+}
+.sub-title{
+    text-align: center;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    letter-spacing: 15px;
+    color: rgb(156, 156, 156);
+    margin-top: 10;
+    margin-bottom:5;
+    translate: 0 -120%;
+}
+.image{
+    display: flex;
+    width:100%;
+    align-items:center;
+    justify-content: space-evenly;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.images{
+    max-width:300px;
+    min-width:200px;    
+    width:15vw;
+}
+.detail{
+    width:100%;
+    height:20vh;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding:2px;
+    margin:15px 0;
+}
+.list{
+    text-align:left;
+}
+#topnav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(98, 140, 179);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:700;
+}
+.nav-link{
+    padding:0 10px;
+    display: inline-block;
+    width:fit-content;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+}
+#logo{
+    width: 120px;
+    background-color: RoyalBlue;
+    font-weight: bold;
+}
+#about{
+    position:absolute;
+    top:0;
+    right:0;
+}
+a{
+    color:aquamarine;
+}
+a:visited{
+    color:rgb(140, 213, 202)
+}
+a:hover{
+    color:darkgreen;
+}
+a:active{
+    color:black;
+}
+.footer{
+    color:rgb(142, 139, 139);
+    padding:10px 0;
+    font-size: 20px;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
