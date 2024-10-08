@@ -37,6 +37,7 @@ body{
     max-width:300px;
     min-width:200px;    
     width:15vw;
+    object-fit: cover;
 }
 .detail{
     width:100%;
