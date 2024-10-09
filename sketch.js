@@ -15,11 +15,11 @@ function preload() {
 }
 
 function setup() {
-  var my_canvas = createCanvas(320, 260);
+  var my_canvas = createCanvas(320 * 2, 240 * 2);
   my_canvas.parent("regconizer");
   // Create the video
   video = createCapture(VIDEO);
-  video.size(320, 240);
+  video.size(320 * 2, 240 * 2);
   video.hide();
 
   flippedVideo = ml5.flipImage(video)
