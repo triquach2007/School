@@ -35,9 +35,11 @@ function draw() {
 
   // Draw the label
   fill(255);
-  textSize(16);
+  textSize(24);
+  textStyle(BOLD);
+  textFont("Cutive Mono");
   textAlign(CENTER);
-  text(label, width / 2, height - 4);
+  text(label.toUpperCase(), width / 2, height - 4);
 }
 
 // Get a prediction for the current video frame
