@@ -70,11 +70,10 @@ body{
 }
 
 .detail-title{
+    font-family: "Roboto Mono", monospace;    
     text-align: center;
     font-size: 2em;
-    font-family: "arial", monospace;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 500;
     color: white;
 }
 
