@@ -112,6 +112,15 @@ canvas{
     padding-bottom: 0;
 }
 
+.description-container{
+    text-align: center;
+    margin: 10px;
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #logo{
     width: 40px;
     background-color: #7671ff;
