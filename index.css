@@ -121,6 +121,16 @@ canvas{
     font-family: 'Courier New', Courier, monospace;
 }
 
+.member-container{
+    display: flex;
+    width:100%;
+    align-items:center;
+    justify-content: space-evenly;
+    gap:10px;
+    flex-wrap:wrap;
+    padding-top: 20px;
+}
+
 #logo{
     width: 40px;
     background-color: #7671ff;
@@ -144,6 +154,18 @@ canvas{
     font-weight: 400;
     font-style: normal;
     color: #7671ff;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+    margin: 5px;
+  }
+
+th{
+    color:#7671ff;
+    font-size: 1.2em;
 }
 
 a{
